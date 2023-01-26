@@ -1,0 +1,29 @@
+---
+title: "bae 565 github exercise"
+author: "Natalie Nelson"
+date: "2023-01-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# load packages
+library(tidyverse)
+library(datasauRus)
+```
+
+## 
+
+Prior to running the code below, install the `datasauRus` package: `install.packages("datasauRus")`. 
+
+Change the color of the points in the plot below. Once you've made the edit, commit and push.
+
+```{r}
+datasaurus_dozen %>%
+  filter(dataset == "dino") %>%
+  ggplot()+
+  geom_point(aes(x = x, y = y))+
+  theme_void()+
+  theme(legend.position = "none")
+```
