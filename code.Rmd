@@ -23,7 +23,7 @@ Change the color of the points in the plot below. Once you've made the edit, com
 datasaurus_dozen %>%
   filter(dataset == "dino") %>%
   ggplot()+
-  geom_point(aes(x = x, y = y))+
+  geom_point(aes(x = x, y = y), col="red")+
   theme_void()+
   theme(legend.position = "none")
 ```
