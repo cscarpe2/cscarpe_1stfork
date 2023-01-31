@@ -19,7 +19,7 @@ Prior to running the code below, install the `datasauRus` package: `install.pack
 
 Change the color of the points in the plot below. Once you've made the edit, commit and push.
 
-HAVE TO PUSH
+HAVE TO PUSH###Change
 
 ```{r}
 ###Graph
